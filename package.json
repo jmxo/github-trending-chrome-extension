@@ -1,0 +1,17 @@
+{
+  "name": "github-trending-language-counter",
+  "version": "1.0.0",
+  "description": "A minimal Chrome extension to count and display programming languages used in trending GitHub repositories.",
+  "main": "content.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "jmxo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.237"
+  }
+}
